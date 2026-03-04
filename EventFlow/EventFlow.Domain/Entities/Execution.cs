@@ -1,4 +1,5 @@
-﻿using System;
+﻿using EventFlow.Domain.Enums;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
@@ -10,7 +11,7 @@ namespace EventFlow.Domain.Entities
 
         public Guid EventId { get; set; }
 
-        public string Status { get; set; } = null!;
+        public ExecutionStatus Status { get; set; }
 
         public DateTime StartedAt { get; set; }
 

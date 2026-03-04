@@ -8,6 +8,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\EventFlow.Domain\EventFlow.Domain.csproj" />
+    <ProjectReference Include="..\EventFlow.Infrastructure\EventFlow.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>
